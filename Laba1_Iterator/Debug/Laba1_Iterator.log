@@ -1,8 +1,12 @@
-﻿Сборка начата 07.11.2017 18:02:13.
+﻿Сборка начата 08.11.2017 18:43:58.
      1>Проект "C:\tp_m\Laba1_Iterator\Laba1_Iterator\Laba1_Iterator.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Iterator.cpp main.cpp
+         Iterator.cpp
+         Создание кода...
+         Компиляция...
          main.cpp
+         Создание кода...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\tp_m\Laba1_Iterator\Debug\Laba1_Iterator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\tp_m\Laba1_Iterator\Debug\Laba1_Iterator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\tp_m\Laba1_Iterator\Debug\Laba1_Iterator.lib" /MACHINE:X86 Debug\Iterator.obj
          Debug\main.obj
@@ -11,4 +15,4 @@
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:02.73
+Затраченное время: 00:00:14.68
