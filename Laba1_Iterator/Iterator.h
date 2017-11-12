@@ -39,6 +39,7 @@ public:
 	{
 		FileMask = mask;
 	}
+	bool Maska(const string mask, const string file);
 };
 
 

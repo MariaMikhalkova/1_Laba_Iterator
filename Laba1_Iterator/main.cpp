@@ -22,13 +22,3 @@ void main(int argc, char *argv[])
 	it->DisplayFiles(FileMask);
 
 }
-
-
-
-
-
-
-
-
-
-
