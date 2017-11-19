@@ -1,49 +1,42 @@
 #include <io.h>
-#include <iostream>
-#include <string>
-using namespace std;
 
 class FileItem
-
 {
-	string name;
-	string path;
-
 public:
-	FileItem() {};
+	std::string name;
+	std::string path;
+	int isDir;
+	tm dateCreated;
 
-	FileItem(const string& namee, const string& pathh)
-	{
-		name == namee;
-		path == pathh;
-	}
+	FileItem() {};
+	FileItem(const std::string& name, const std::string& path, time_t dateCreate);
+	void Show();
 };
 
 class FileIterator
 {
-	FileItem * cache;
-	string FileMask;
+	FileItem* cache;
+	std::string FileMask;
 
-	FileIterator *it2;//итератор для внутренних проходов)
+	FileIterator* subIterator;
+	FileIterator* it;
 
-	inline bool IsDirectory(const _finddata_t &FindData);
+	intptr_t FindHandle;
+
+	FileItem* doSearch(const std::string & fileMask);
+	FileItem* Serch_ib_dir(const std::string & fileMask);
+
+	inline bool IsDirectory(const _finddata_t & FindData);
+
+	bool compareToMask(const std::string & mask, const std::string & file);
 
 public:
-	FileIterator() {};
-	FileIterator(const string & _fileMask);
+	FileIterator() : FindHandle(NULL) {};
+	FileIterator(const std::string & fileMask);
 
 	bool hasMore();
 
-	void DisplayFiles(const string& FileMask);
-	void FileIterator::setFileMask(const string & mask)
-	{
-		FileMask = mask;
-	}
-	bool Maska(const string mask, const string file);
+	FileItem * Next();
+
+	void setFileMask(const std::string & mask);
 };
-
-
-
-
-
-
