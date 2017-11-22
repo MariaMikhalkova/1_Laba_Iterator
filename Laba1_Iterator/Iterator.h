@@ -17,10 +17,7 @@ class FileIterator
 {
 	FileItem* cache;
 	std::string FileMask;
-
-	FileIterator* subIterator;
 	FileIterator* it;
-
 	intptr_t FindHandle;
 
 	FileItem* doSearch(const std::string & fileMask);

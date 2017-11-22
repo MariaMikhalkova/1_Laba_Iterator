@@ -1,4 +1,4 @@
-﻿Сборка начата 19.11.2017 20:03:58.
+﻿Сборка начата 22.11.2017 17:10:14.
      1>Проект "C:\tp_m\Laba1_Iterator\Laba1_Iterator\Laba1_Iterator.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
@@ -11,4 +11,4 @@
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:02.28
+Затраченное время: 00:00:01.05
